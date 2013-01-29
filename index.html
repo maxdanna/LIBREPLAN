@@ -1,0 +1,378 @@
+<!DOCTYPE html> <!-- HTML5 -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<title>Aide à l'utilisation de LIBREPLAN</title>    
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">    
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link href="css/bootstrap-switch.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+		<script src="js/jquery.switch.js"></script>
+		<!--[if IE 7]>
+		<link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+		<![endif]-->
+		<script src="js/bootstrap.js"></script>
+		<link rel="stylesheet" href="css/style.css" media="screen">
+		<link rel="stylesheet" href="css/temp.css" media="screen">
+		<link href='http://fonts.googleapis.com/css?family=Nunito:400,700' rel='stylesheet' type='text/css'> <!-- Police Nunito de chez Google -->
+	</head>
+	
+	<body>
+		<div class="row-fluid">
+		 <div class="span12"><legend class="legend">Aide à l'utilisation de "Libre plan"</legend></div>
+		 <div class="span4 offset7"><p class="signature">par Max D'ANNA (Service Informatique)</p></div>
+		</div>
+	
+		
+	   <section class="row-fluid">
+			<div class="span12">
+				<div class="span2 offset1">
+					<div class="tabbable tabs-left couleur5"> 
+						<ul class="icons nav nav-tabs height_temp right_temp">
+							<li class="active"><a href="#présentation" data-toggle="tab"><b class="text-info"><i class="icon-home icon-2x"></i>Introduction</b></a></li>
+							<li><a href="#comment_y_acceder" data-toggle="tab"><b class="text-info"><i class="icon-lightbulb"></i>Comment y accéder</b></a></li>
+							<li><a href="#un_projet" data-toggle="tab"><b class="text-info"><i class="icon-suitcase"></i>Un projet</b></a></li>
+							<li><a href="#l_interface" data-toggle="tab"><b class="text-info"><i class="icon-eye-open"></i>L'interface</b></a></li>
+							<li><a href="#menu_horizontale" data-toggle="tab"><b class="text-info"><i class="icon-th-list"></i>Menu horizontal</b></a></li>
+							<li><a href="#menu_vertical" data-toggle="tab"><b class="text-error"><i class="icon-columns"></i>Menu vertical</b></a></li>
+							<li><a href="#menu_onglet" data-toggle="tab"><b class="text-error"><i class="icon-th-list"></i>Menu onglet</b></a></li>
+							<li><a href="#le_menu_EDITION" data-toggle="tab"><b class="text-error"><i class="icon-cog"></i>Le menu "EDITION" </b></a></li>
+							<li><a href="#gerer_son_profil" data-toggle="tab"><b class="text-error"><i class="icon-user"></i>Gérer son profil </b></a></li>
+							<li><a href="#le_responsable_du_projet" data-toggle="tab"><b class="text-error"><i class="icon-bullhorn"></i>Responsable du projet </b></a></li>
+							<li><a href="#les_utilisateurs" data-toggle="tab"><b class="text-error"><i class=""></i>Les utilisateurs</b></a></li>
+							<li><a href="#les_profils" data-toggle="tab"><b class="text-info"><i class=""></i>Les profils</b></a></li>
+							<li><a href="#les_roles" data-toggle="tab"><b class="text-error"><i class=""></i>Les rôles</b></a></li>
+							<li><a href="#le_calendrier" data-toggle="tab"><b class="text-error"><i class="icon-calendar"></i>Le calendrier</b></a></li>
+							<li><a href="#les_ressources" data-toggle="tab"><b class="text-error"><i class=""></i>Les ressources</b></a></li>
+							<li><a href="#ajouter_une_ressource_a_une_tache" data-toggle="tab"><b class="text-error">Ajouter une ressources à une tâches</b></a></li>
+							<li><a href="#les_libelles" data-toggle="tab"><b class="text-error"><i class="icon-tags"></i>Les libellés</b></a></li>
+							<li><a href="#les_filtres" data-toggle="tab"><b class="text-error"><i class="icon-filter"></i>Les filtres</b></a></li>
+							<li><a href="#l_impressions" data-toggle="tab"><b class="text-error"><i class="icon-print"></i>L'impression</b></a></li>
+							<li><a href="#les_rapports" data-toggle="tab"><b class="text-error"><i class=""></i> Les rapports</b></a></li>
+							<li><a href="#autres" data-toggle="tab"><strong><b class="text-error"><i class="icon-question-sign"></i>Autres...</b></strong></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="row-fluid">
+					<div class="span8 couleur4">
+					<div class="tab-content">
+					
+					
+						<section class="tab-pane active" id="présentation">
+							<div style="text-align:center;">
+									<br/>
+								<div class="row-fluid">
+									<div class="span12 height_temp2">
+										<img src="http://192.168.2.37/MAP-LOGO-01.jpg" alt="" class="couleur4marge pull-right center_temp"/>
+										<br/>
+										<p class="marginalltemp right_temp"><strong>Libre Plan</strong> est une application libre de gestion de projets qui fonctionne avec une interface web. 
+										Elle permet de planifier et suivre des projets, de définir des activités, d'estimer des temps de travail ou encore de réaliser des diagrammes de Gantt. 
+										Côté technique, elle est écrite en Java/Tomcat et stocke ses données dans une base PostegreSQL. Le code source est quant à lui distribué sous la licence libre AGPL.</p>
+									</div>
+								</div>
+								<div class="row-fluid">
+									<div class="span5 offset1 ">
+										<p class="btn btn-warning disabled">
+											<strong>PLATEFORME WEB</strong> : Cet outil est dédié uniquement au responsable désigné de certain service, il ne peut être utilisé par d'autres personnes.
+										</p>
+									</div>
+									<div class="span5 ">
+										<p class="btn btn-success disabled">
+											<strong>SAUVEGARDE</strong> : le serveur ainsi que la base de données de cet outil est sauvegardé quotidiennement.
+										</p>
+									</div>
+								</div>
+							</div>
+								<br/>
+								<br/>
+								<img src="img/presentation.png" alt="" class="center_temp" width="1255px"/>
+						</section>
+						
+						
+						
+						
+						<section class="tab-pane" id="comment_y_acceder">
+							<div >
+								<div class="row-fluid">
+									<div class="span10 offset1 height_temp2">
+									<br/>
+									 <div class="span12"><legend class="legend">COMMENT Y ACCEDER</legend></div>
+									<br/>
+										<ol>
+											<li><p>Vous pouvez accéder à <strong>Libre Plan</strong> en ouvrant votre <strong>*navigateur internet</strong>. </p></li>
+											<li><p>tapez dans l'url ce lien : <strong><a href="http://192.168.2.222:8080/libreplan/" class="text-info">http://192.168.2.222:8080/libreplan/</a></strong></p></li>
+											<li><p>Et il ne vous reste qu'à vous connecter avec les identifiant que le "Service Informatique" vous a fait parvenir.</p></li>
+										</ol>
+										<ul class="icons marginlefttexte">
+										  <li><i class="icon-user"></i> Nom d'utilisateur</li>
+										  <li><i class="icon-key"></i> Mot de passe</li>
+										</ul>
+										<br/>
+										<br/>
+										<p>*Voici la liste des navigateurs recommandé :</p>
+										<ul class="icons">
+										  <li><i class="icon-ok-sign"></i> Firefox</li>
+										  <li><i class="icon-ok-sign"></i> Google Chrome</li>
+										  <li><i class="icon-ok-sign"></i> Safari</li>
+										  <li><i class="icon-ok-circle"></i> Internet explorer</li>
+										  <li><i class="icon-ok-circle"></i> Opéra</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row-fluid">
+									<div class="span10 offset1 height_temp2">
+										<p class="btn btn-warning disabled marginbottomtemp">
+											<strong>Puis-je y accéder à partir d'internet ?</strong> Actuellement, il n'est pas possible d'ouvrir Libre Plan à partir de chez vous (ou de chez un client).
+										</p>
+									</div>
+								</div>
+								<div class="row-fluid">
+									<div class="span10 offset1 height_temp2">
+										<p class="btn btn-success disabled marginbottomtemp">
+											<strong>Qu’en pensez-vous qu'il sera disponible ? </strong> Il est possible que ce projet n'aboutisse pas pour des raisons de sécurités de notre réseaux IT.
+										</p>
+									</div>
+								</div>
+								<div class="row-fluid">
+									<div class="span10 offset1 height_temp2">
+										<a href="https://mailhost.map-sa.com/" class="btn btn-success disabled marginbottomtemp">
+											<strong>Cependant, </strong> il actuellement possible de se connecter (via https://mailhost.map-sa.com/) au serveur4 de TSE.
+										</a>
+									</div>
+								</div>
+							</div>
+						</section>
+						
+						
+						
+						
+						<section class="tab-pane" id="un_projet">
+							<div class="row-fluid">
+								<div class="span10 offset1 height_temp2">
+									<br/>
+									 <div class="span12"><legend class="legend">UN PROJET</legend></div>
+									<br/>
+										<p>Pour ajouter un projet, il suffit de cliquer sur l'icône <img src="img/ajout_d_un_projet.png" alt="" class=""/> 
+										situé au-dessus du <a href="#menu_horizontale" data-toggle="tab" class="text-info">Menu horizontale</a>.</p>
+										<p><strong>La création de projet</strong> est très simple mais doit respecter certaines règles, un projet doit posséder :</p>
+										<ul class="icons">
+										  <li><i class="icon-edit icon-2x"></i> Un Nom prédéfinie</li>
+											<div class="row-fluid">
+												<div class="span10 offset1 height_temp2">
+													<p class="btn btn-success disabled marginbottomtemp">
+														<strong>EXEMPLE :</strong> INFORMATIQUE - FORMATION A LIBRE PLAN <br/> ce nom de projet commence par le nom du service - et comprend une dénomination du projet afin de le différencier des autres projets.
+													</p>
+												</div>
+											</div>
+											<div class="row-fluid">
+												<div class="span10 offset1 height_temp2">
+													<p class="btn btn-warning disabled marginbottomtemp">
+														<i class="icon-edit icon-2x"></i><strong>MODEL DE PROJET</strong> <br/> Vous avez ensuite la possibilité de baser votre projet sur un modèle existant (si le SI n'a pas créer de model, il est inutile de suivre cette consigne).
+													</p>
+												</div>
+											</div>
+												<li><i class="icon-edit icon-2x"></i> Avoir une Date de début et une échéance.</li>
+												<li><i class="icon-edit icon-2x"></i> Si le projet concerne un client, renseignez le.</li>
+												<li><i class="icon-edit icon-2x"></i> Et un calendrier (à laisser par défaut)</li>
+										</ul>
+									<img src="img/creation_d_un_projet.png" alt="" class=""/>
+									<br/>
+											<p> Une fois le projet créer, il faut renseigner les champs suivant	(situé dans le <a href="#menu_vertical" data-toggle="tab" class="text-info">Menu Verticale</a>).</p>
+										<ul class="icons">
+											  <li><i class="icon-edit icon-2x"></i> <a href="#le_responsable_du_projet" data-toggle="tab" class="text-info">Le Responsable du projet</a></li>
+											  <li><i class="icon-edit icon-2x"></i> Une description</li>
+											  <li><i class="icon-edit icon-2x"></i> Si le projet concerne un client, renseignez le.</li>
+											  <li><i class="icon-edit icon-2x"></i> <a href="#le_calendrier" data-toggle="tab" class="text-info">Et un calendrier</a> (à laisser par défaut pour le moment)</li>
+										</ul>
+								</div>
+							</div>
+						</section>
+						
+						<section class="tab-pane" id="l_interface">
+							<div class="row-fluid">
+								<div class="span10 offset1 height_temp2">
+									 <div class="span12"><legend class="legend">L'INTERFACE</legend></div>
+									<br/>
+										<p>L'interface est composée d'un : 
+										<ul class="icons">
+											<li><i class="icon-minus icon-2x"></i>
+												<a href="#menu_horizontale" data-toggle="tab" class="text-info">menu horizontale</a></p>
+												<img src="img/menu_horizontal.png" alt="" class="couleur4marge"/>
+											</li>
+											<li><i class="icon-minus icon-2x"></i>
+												<a href="#menu_verticale" data-toggle="tab" class="text-info">menu vertical</a></p>
+												<img src="img/different_boutton.png" alt="" class="couleur4marge"/>
+											</li>
+											<li><i class="icon-minus icon-2x"></i>
+												<a href="#menu_onglet" data-toggle="tab" class="text-info">menu onglet</a></p>
+												<img src="img/menu_onglet.png" alt="" class="couleur4marge"/>
+											</li>
+										</ul>
+										<br/>
+										<p>Chaque <strong>menu</strong> posséde ses propres fonctions, Voici la liste des principaux fonctions de chaque menu.</p>
+										<p class="text-warning">Le <a href="#menu_horizontale" data-toggle="tab" class="text-info">menu horizontale</a> concerne essentiellement l'affichage central, ce menu permet : 
+										<ul class="icons">
+											<li class="text-warning"><i class="icon-folder-open-alt"></i> de filtrer (en fonction d'un libéllé par exemple)</li>
+											<li class="text-warning"><i class="icon-folder-open-alt"></i> d'afficher/masquer des informations</li>
+											<li class="text-warning"><i class="icon-folder-open-alt"></i> de modifier le Zoom</li>
+											<li class="text-warning"><i class="icon-folder-open-alt"></i> de choisir la période d'affichage</li>
+										</ul>
+										<p class="text-info">Le <a href="#menu_verticale" data-toggle="tab" class="text-info">menu vertical</a> est un sous-menu du <a href="#menu_onglet" data-toggle="tab" class="text-info">menu onglet</a>, ce menu permet : 
+										<p class="text-info"> Dans la vue de la compagnie, vous pourrez afficher : 
+											<ul class="icons">
+												<li class="text-info"><i class="icon-folder-open-alt"></i> un <strong>Diagramme de Gantt</strong> sommaire à la liste des projets</li>
+												<li class="text-info"><i class="icon-folder-open-alt"></i> la liste des projets</li>
+												<li class="text-info"><i class="icon-folder-open-alt"></i> la charges des ressources</li>
+												<li class="text-info"><i class="icon-folder-open-alt"></i> le calendrier des ressources en file</li>
+											</ul>
+										<p class="text-info"><i class="icon-plus icon-2x"></i> Dans la vue du projet, vous pourrez afficher en plus : 
+											<ul class="icons">
+												<li class="text-info"><i class="icon-plus-sign"></i> un <strong>Diagramme de Gantt</strong> sommaire à la liste des projets</li>
+												<li class="text-info"><i class="icon-plus-sign"></i> la liste des projets</li>
+												<li class="text-info"><i class="icon-plus-sign"></i> la charges des ressources</li>
+												<li class="text-info"><i class="icon-plus-sign"></i> le calendrier des ressources en file</li>
+											</ul>
+										<p class="text-warning">Le <a href="#menu_onglet" data-toggle="tab" class="text-info">menu onglet</a> permet d'accéder à dautre page (en fonction de vos droits d'acces) : 
+										<ul class="icons">
+											<li class="text-warning"><i class="icon-folder-open-alt"></i> Le "Calendrier"
+												<ul class="icons">
+													<ol><i class="icon-th-large"></i>  Vue de la Compagnie </ol>
+													<ol><i class="icon-th-large"></i>  Projet </ol>
+													<ol><i class="icon-th-large"></i>  Chargement des ressources </ol>
+													<ol><i class="icon-th-large"></i>  Ressource en file </ol>
+													<ol><i class="icon-th-large"></i>  Canevas </ol>
+												</ul>
+											</li>
+											<li class="text-info"><i class="icon-folder-open-alt"></i> Les "Ressources"
+												<ul class="icons">
+													<ol><i class="icon-th-large"></i>  Participants </ol>
+													<ol><i class="icon-th-large"></i>  Machines </ol>
+													<ol><i class="icon-th-large"></i>  Travailleurs virtuels </ol>
+													<ol><i class="icon-th-large"></i>  Calendrier </ol>
+													<ol><i class="icon-th-large"></i>  Jours exceptionnels du calendrier </ol>
+													<ol><i class="icon-th-large"></i>  Critère </ol>
+													<ol><i class="icon-th-large"></i>  Types d'avancement </ol>
+													<ol><i class="icon-th-large"></i>  Libellés </ol>
+													<ol><i class="icon-th-large"></i>  Unités de matériel </ol>
+													<ol><i class="icon-th-large"></i>  Formulaire qualité </ol>
+												</ul>
+											</li>
+											<li class="text-warning"><i class="icon-folder-open-alt"></i> Le "Coût"
+												<ul class="icons">
+													<ol><i class="icon-th-large"></i>  Feuille de temps </ol>
+													<ol><i class="icon-th-large"></i>  Canevas de feuille de temps </ol>
+													<ol><i class="icon-th-large"></i>  Liste des lignes de la feuille de temps </ol>
+													<ol><i class="icon-th-large"></i>  Dépenses </ol>
+													<ol><i class="icon-th-large"></i>  Catégories de coût </ol>
+													<ol><i class="icon-th-large"></i>  Types d'heures </ol>
+												</ul>
+											</li>
+											<li class="text-info"><i class="icon-folder-open-alt"></i> La "Configuration"
+												<ul class="icons">
+													<ol><i class="icon-th-large"></i>  Réglages principaux </ol>
+													<ol><i class="icon-th-large"></i>  Compte utilisateurs </ol>
+													<ol><i class="icon-th-large"></i>  Profils </ol>
+												</ul>
+											</li>
+											<li class="text-warning"><i class="icon-folder-open-alt"></i> La "Communications"
+												<ul class="icons">
+													<ol><i class="icon-th-large"></i>  Sociétés </ol>
+													<ol><i class="icon-th-large"></i>  Envoyer aus sous-traitants </ol>
+													<ol><i class="icon-th-large"></i>  Reçu des sous-traitants </ol>
+													<ol><i class="icon-th-large"></i>  Envoyé aux clients </ol>
+													<ol><i class="icon-th-large"></i>  Reçu des clients </ol>
+												</ul>
+											</li>
+											<li class="text-info"><i class="icon-folder-open-alt"></i> Les "Rapports"
+												<ul class="icons">
+													<ol><i class="icon-th-large"></i>  Heures travaillées par ressource </ol>
+													<ol><i class="icon-th-large"></i>  Total des heures travaillées par ressource et par mois </ol>
+													<ol><i class="icon-th-large"></i>  Travail et avancement par projet </ol>
+													<ol><i class="icon-th-large"></i>  Travail et avancement par tâche </ol>
+													<ol><i class="icon-th-large"></i>  Heures estimées/planifiées par tâche </ol>
+													<ol><i class="icon-th-large"></i>  Coûts du projet </ol>
+													<ol><i class="icon-th-large"></i>  Etat prévisionnel de la tâche dans le projet </ol>
+													<ol><i class="icon-th-large"></i>  Besoin matériels à une date donnée </ol>
+													<ol><i class="icon-th-large"></i>  Etat du projet </ol>
+												</ul>
+											</li>
+											<li class="text-warning"><i class="icon-folder-open-alt"></i> La "Zone personnelle"
+												<ul class="icons">
+													<ol><i class="icon-th-large"></i>  Accueil </ol>
+													<ol><i class="icon-th-large"></i>  Préférences </ol>
+													<ol><i class="icon-th-large"></i>  Modifier le mot de passe </ol>
+												</ul>
+											</li>
+										</ul>
+													<p class="btn btn-info disabled marginbottomtemp">
+														<strong>ACCESSIBILITE</strong> Vous pourrez seulement afficher les projets qui vous concernent.
+													</p>
+													<br/>
+								</div>
+							</div>
+						</section>
+						
+						
+						<section class="tab-pane" id="menu_horizontale">
+									<br/>
+									 <div class="span12"><legend class="legend">MENU HORIZONTAL</legend></div>
+									<br/>
+							<div class="height_temp2">
+								<img src="img/different_boutton.png" alt="" class="couleur4marge pull-left center_temp"/>
+							</div>
+							<div class="row-fluid">
+								<div class="span9 height_temp2 ">
+									<ul class="icons margintoptemp2">
+										<li><i class="icon-circle-blank"></i><strong>la Planification des projets</strong></li>
+											<p>
+												La planification des projets est une liste qui regroupe l'ensemble des projets que vous pouvez visualiser. 
+											</p>
+											<p class="btn btn-success disabled marginbottomtemp">
+												<strong>DROIT DE SECURITE</strong> : Une personne qui ne possède pas le droit de lecture ou d'écriture ne pourra pas voir ce projet.
+											</p>
+										<br/>
+										<li><i class="icon-circle-blank"></i><strong>La liste des projets</strong></li>
+											<p>
+												Cette liste permet d'afficher la même chose que dans la planification des projets sans affichage graphique. Nous remarquons la présence du client (destinataire du projet), du budget total, du nombre d'heures et de l'état du projet.
+											</p>
+											<p class="btn btn-success disabled marginbottomtemp">
+												<strong>DROIT DE SECURITE</strong> : Une personne qui ne possède pas le droit de lecture ou d'écriture ne pourra pas voir ce projet.
+											</p>
+										<br/>
+										<li><i class="icon-circle-blank"></i><strong>Le chargement des ressources</strong></li>
+											<p>
+												Le chargement des ressources permet de voir et/ou de gérer les différentes ressources humaines. Nous affichons alors la Surcharge, la Charge à 100%, la capacité totale et la Charge affectée.
+											</p>
+											<p class="btn btn-warning disabled marginbottomtemp">
+												<strong>LA SURESTIMATION</strong> : la plupart des personnes vous donnant un délai à une tâches surestime ce délai.
+											</p>
+										<br/>
+										<li><i class="icon-circle-blank"></i><strong>Le calendrier des ressources en file</strong> (initialisé à la MAPSA)</li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					
+					
+					
+					
+					
+						<section class="tab-pane" id="les_profils">
+								<img src="img/les_profils.png" alt="" class="couleur4marge pull-right center_temp"/>
+						</section>
+					
+					
+					</div>
+					</div>
+				</div>
+			</div>
+			
+		</section>
+ 				<!--<section class="background_full">
+				<img src="img/highlighted.png" alt="" class=" pull-right center_temp"/>
+				</section> -->
+	</body>
+
+</html>

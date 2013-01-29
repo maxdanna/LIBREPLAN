@@ -1,0 +1,166 @@
+/* ______________________________ HEADER _____________________________ */
+
+#logo_source /* logo */
+{
+	padding-top:0;
+	width:auto;
+	height:41px;
+}
+
+
+.slogan
+{
+	text-align:center;	
+	font-family: 'nunito';
+	font-size:30px;
+	color:#fff;
+	text-shadow:1px 2px 1px #2679a8, 
+    			2px 1px 1px #2679a8, 
+    			
+    			-1px 2px 1px #2679a8, 
+    			-2px 1px 1px #2679a8,
+    			
+    			1px -2px 1px #2679a8, 
+    			2px -1px 1px #2679a8, 
+    			
+    			-1px -2px 1px #2679a8, 
+    			-2px -1px 1px #2679a8;
+	font-weight:bold;
+	background:#a6d7e3;
+	margin:0px;
+	padding:20px;
+}
+
+
+.zone_recherche
+{
+	text-align:center;	
+	font-size:30px;
+	color:#fff;
+	background-color: #02779e;
+	padding:25px;
+}
+
+
+.slider
+{
+	
+	font-size:30px;
+	color:#fff;
+	background:#393939;
+	background-image:url(../img/pattern4.png);
+	padding:50px;
+	height:230px;
+}
+
+
+.tampon
+{
+	background:#02779e;
+	height:230px;
+}
+
+
+.titre
+{
+	text-align:center;	
+	font-family: 'nunito';
+	font-size:30px;
+	color:#fff;
+	text-shadow:1px 2px 1px #2679a8, 
+    			2px 1px 1px #2679a8, 
+    			
+    			-1px 2px 1px #2679a8, 
+    			-2px 1px 1px #2679a8,
+    			
+    			1px -2px 1px #2679a8, 
+    			2px -1px 1px #2679a8, 
+    			
+    			-1px -2px 1px #2679a8, 
+    			-2px -1px 1px #2679a8;
+	font-weight:bold;
+	background:#a6d7e3;
+	margin:0px;
+	padding:15px;
+}
+
+.marges
+{
+	background:#e5ecf0;
+}
+
+.description
+{
+	font-family: 'Open Sans', serif;
+	font-size:14px;
+	text-align:center;
+	padding:15px;
+	height:auto;
+	background:#fff;
+}
+
+
+.footer
+{
+	background:#393939;
+	padding:15px;
+	height:50px;
+}
+
+
+#quoi_ou
+{
+	font-size: 17.5px;
+	font-family: 'Open Sans', serif;
+	font-weight:bold;
+    border-radius:6px 6px 6px 6px;
+	-webkit-border-radius: 6px 6px 6px 6px;  
+    -moz-border-radius: 6px 6px 6px 6px;
+	line-height: 20px;
+	vertical-align: middle;
+	cursor: pointer;
+	padding: 8px;
+	border:1px solid #abd7e3;
+	background:#ffffff;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#e5ecf0"); /* Pour IE seulement et mode gradient à linear */
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e5ecf0));
+	background-image: -moz-linear-gradient(top center, #ffffff, #e5ecf0);
+	background-image: -o-linear-gradient(top, #ffffff, #e5ecf0); /*uniquement en mode linear*/
+}
+
+
+/* ______________________________ CONNEXION _____________________________ */
+#user_nom
+{
+	margin-bottom: 15px;
+}
+
+
+#user_mdp
+{
+	margin-bottom: 15px;
+}
+
+
+#user_souvenir
+{
+	float: left;
+	margin-right: 10px;
+}
+
+
+#bouton_connexion
+{
+	clear: left;
+	width: 100%;
+	height: 32px;
+	font-size: 13px;
+}
+
+
+.dropdown-menu
+{
+	padding: 15px;
+	padding-bottom: 0px;
+	margin-left:20px;
+}

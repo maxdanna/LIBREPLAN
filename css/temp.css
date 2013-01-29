@@ -1,0 +1,107 @@
+.couleur1
+{
+	background:red;
+}
+.couleur2
+{
+	background:blue;
+}
+.couleur3
+{
+	background:green;
+}
+.couleur5
+{
+	background:white;
+}
+.couleur4
+{
+	border: 1px solid #ccc;
+	background:white; opacity: 0.90;
+}
+.couleur4marge
+{
+	margin:5px;
+	border: 1px solid #AAA;
+	padding:10px;
+}
+
+.height_temp
+{
+	min-height:600px;
+}
+
+.height_temp3
+{
+	min-width:500px;
+}
+
+.height_temp2
+{
+	height:auto;
+}
+
+.align_text_temp
+{
+	text-align:right;
+}
+.margintoptemp
+{
+	margin-top:10px;
+}
+.marginbottomtemp
+{
+	margin-bottom:10px;
+}
+.marginlefttemp
+{
+	margin-left:10px;
+}
+.marginlefttexte
+{
+	margin-left:100px;
+}
+.margintoptemp
+{
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:50px;
+}
+.margintoptemp2
+{
+	padding-top:35px;
+}
+.marginalltemp
+{
+	padding:30px;
+}
+.center_temp
+{
+	text-align:center;
+}
+.left_txt_temp
+{
+	text-align:center;
+}
+.right_temp
+{
+	text-align:right;
+}
+.signature {
+  display: block;
+  width: 100%;
+  text-align:right;
+  padding: 0;
+  margin-top: -30px;
+  font-size: 12px;
+  line-height: 40px;
+  color: #333333;
+}
+.background_full
+{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+	background:url(../images/temp/pattern_vert.jpg);opacity: 0.75;
+	z-index:-100;
+}
